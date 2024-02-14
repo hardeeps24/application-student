@@ -126,7 +126,8 @@ const Dashboard = () => {
                 <Navbar />
                 <div className="row px-3 px-sm-0">
                     <div className="col-md-8 m-auto mt-3">
-                        <button type="button" className="btn border border-1 shadow-sm float-end" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" className="btn border border-1 border-primary shadow-sm float-end d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <svg class="svg-inline--fa fa-plus fa-w-14 me-2 text-primary" width={15} height={15} aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
                             New Student
                         </button>
                         <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
