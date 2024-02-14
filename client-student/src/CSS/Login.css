@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+#login {
+    background-image: linear-gradient(to right top, #684475, #64477d, #5e4b85, #564f8d, #4c5394);
+    height: 100vh;
+  }
+  
+h1 {
+    color: #100730;
+}
+
+button.login {
+    background-color: rgb(42, 42, 73);
+  }
+  button.login:hover {
+    background-color: rgb(42, 42, 73);
+  }
+  button.signup {
+    background-color: rgb(29, 100, 107);
+  }
+  button.signup:hover {
+    background-color: rgb(29, 100, 107);
+  }
