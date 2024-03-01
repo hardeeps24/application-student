@@ -34,7 +34,7 @@ const Dashboard = () => {
         try {
             const config = {
                 method: 'get',
-                url: "http://localhost:4442/api/v1/auth/student-data",
+                url: "http://localhost:4444/api/v1/auth/student-data",
                 headers: {
                     'Content-Type': 'application/json',
                 }

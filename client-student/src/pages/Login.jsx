@@ -45,7 +45,7 @@ const Login = () => {
     }
   
     axios
-      .post('http://localhost:4442/api/v1/auth/log-in', {
+      .post('http://localhost:4444/api/v1/auth/log-in', {
         email: fields.email,
         password: fields.password,
       })
