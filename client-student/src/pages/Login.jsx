@@ -52,7 +52,6 @@ const Login = () => {
       .then((response) => {
         if (response.data.success) {
           console.log(JSON.stringify(response.data));
-          // localStorage.setItem('token', response.data.token);
           setLoginMessage('Login successful!');
           setTimeout(() => {
             setLoginMessage('');
